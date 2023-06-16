@@ -4,15 +4,10 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
   Health,
   StressDetector,
   Predictor
@@ -59,29 +54,14 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "CSS",
+    icon: css,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+
   {
     name: "git",
     icon: git,
@@ -89,10 +69,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
