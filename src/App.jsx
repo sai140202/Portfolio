@@ -15,18 +15,20 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div></div>}>
             <Hero />
           </Suspense>
         </div>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div></div>}>
           <About />
           <Works />
         </Suspense>
         <div className="relative z-0">
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div></div>}>
             <Tech/>
+            
             <Contact />
+            <StarsCanvas/>
           </Suspense>
         </div>
       </div>

@@ -93,7 +93,7 @@ const projects = [
       },
     ],
     image: Health,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/sai140202/Simple-pedometer--2022.git",
   },
   {
     name: "Stree Detector Using CNN",
@@ -114,7 +114,7 @@ const projects = [
       },
     ],
     image: StressDetector,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/sai140202/Stress-Detection-using-CNN.git",
   },
   {
     name: "Eligibility Predictor",
@@ -135,7 +135,7 @@ const projects = [
       },
     ],
     image: Predictor,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/sai140202/University-Admit-Eligibility-Predictor.git",
   },
 ];
 
