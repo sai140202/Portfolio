@@ -1,7 +1,13 @@
 import { BrowserRouter } from "react-router-dom";
+import { lazy } from "react";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
+import { Hero, Navbar, StarsCanvas } from "./components";
+
+const About = lazy(() => import("./components/About"))
+const Works = lazy(() => import("./components/Works"))
+const Tech = lazy(() => import("./components/Tech"))
+const Contact = lazy(() => import("./components/Contact"))
 const App = () => {
   return (
     <BrowserRouter>
